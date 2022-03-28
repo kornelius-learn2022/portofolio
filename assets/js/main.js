@@ -37,25 +37,25 @@ function time_load_end(){
     isi.style.opacity = '1';
 }
 
-// function load_end(){
-// if (onload() == true){
-//     const waste = setTimeout(time_load_end,1000);
-//     return true;
-// }
-// }
+function load_end(){
 if (onload() == true){
     const waste = setTimeout(time_load_end,1000);
+    return true;
 }
+}
+// if (onload() == true){
+//     const waste = setTimeout(time_load_end,1000);
+// }
 toggle.addEventListener('click',function(){
     nav.classList.toggle('slide');
     cont.classList.toggle('container')
 });
-// if (load_end() == true){
-//     ScrollReveal({  reset:true, 
-//         duration: 2000,
-//         distance:'60px',
-//         delay:400
-// });
-//     ScrollReveal().reveal('.home__data,#about_foto,#card-1,.tag-1,#skill-menu',{delay:500,origin:'left'});
-//     ScrollReveal().reveal('.home__img,#about_teks,#card-2,.tag-2,#skill-foto',{delay:1000,origin:'rigth'});
-// }   ScrollReveal().reveal('.about-text',{delay:500,origin:'bottom'});
+if (load_end() == true){
+    ScrollReveal({  reset:true, 
+        duration: 2000,
+        distance:'60px',
+        delay:400
+});
+    ScrollReveal().reveal('.home__data,#about_foto,#card-1,.tag-1,#skill-menu',{delay:500,origin:'left'});
+    ScrollReveal().reveal('.home__img,#about_teks,#card-2,.tag-2,#skill-foto',{delay:1000,origin:'rigth'});
+}   ScrollReveal().reveal('.about-text',{delay:500,origin:'bottom'});
