@@ -329,6 +329,9 @@ footer.footer{
 } */
 
 @media screen and (max-width:572px){
+    .nav{
+        width: 90%;
+    }
     div.container{
         opacity: 0.5;
     }
@@ -341,7 +344,7 @@ footer.footer{
         bottom: 2px;
     }
     .nav-logo h4{
-        position: absolute;
+        position: absolute; 
         left: 20px;
     }
     nav ul{
