@@ -14,7 +14,6 @@ div.layer{
     height: 100%;
     width: 100%;
     background-color: #002647;
-
 }
 .loading{
     position: fixed;
@@ -23,9 +22,7 @@ div.layer{
     height: 40px;
     transform: translate(-50%,-50%);
     display: flex;
-    align-items: center;
- 
-    
+    align-items: center;   
 }
 .loading .obj{
     width: 4px;
@@ -34,7 +31,6 @@ div.layer{
     margin-left: 3px;
     border-radius: 10px;
     animation: loading 0.8s infinite;
-
 }
 .obj:nth-child(2){
     animation-delay:0.1s;
@@ -252,7 +248,6 @@ div.bor{
     border: 3px solid #EC831E;
 }
 i#education-icon{
-
     margin-top: 4px;
 }
 div#sekolah-1.col{
@@ -322,23 +317,16 @@ footer.footer{
     height: 200px;
     background-color: #002647;
 }
-/* div .containn-footer{
-    height: 20%;
-    width: 100%;
-    background-color: #002647;
-} */
-
 @media screen and (max-width:572px){
-    
-    .nav{
-        width: 100%;
-    }
+
     div.container{
+        padding-left: 0;
+        padding-right: 0;
         opacity: 0.5;
     }
     .nav-toggler{
         position: absolute;
-        right: 70px;
+        right: 60px;
         font-size: 1.5rem;
         color:  #EC831E;
         cursor: pointer;
@@ -352,7 +340,7 @@ footer.footer{
         position: absolute;
         flex-direction: column;
         gap: 30px;
-        right: -10px;
+        right: 0px;
         padding-top: 50px;
         width: 60%;
         top: 0;
