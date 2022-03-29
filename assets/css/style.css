@@ -338,7 +338,7 @@ footer.footer{
     }
     .nav-toggler{
         position: absolute;
-        right: 5px;
+        right: 70px;
         font-size: 1.5rem;
         color:  #EC831E;
         cursor: pointer;
