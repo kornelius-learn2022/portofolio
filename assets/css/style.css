@@ -325,6 +325,12 @@ i.tag-2-2{
     transform: rotate(45deg);
     z-index: -1;
 }
+div#sertifikat-isi{
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #EC831E;    
+}
+
 div#sertifikat-content-1{
     margin-top: 50px;
     margin-left: 160px;

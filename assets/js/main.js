@@ -58,6 +58,7 @@ if (load_end() == true){
         distance:'60px',
         delay:400
 });
-    ScrollReveal().reveal('.home__data,#about_foto,#card-1,#card-3,.tag-1-1,.tag-2,#skill-menu,#sertifikat-content-1',{delay:500,origin:'left'});
+    ScrollReveal().reveal('.home__data,#about_foto,#card-1,#card-3,.tag-1-1,.tag-2,#skill-menu',{delay:500,origin:'left'});
     ScrollReveal().reveal('.home__img,#about_teks,#card-2,#card-4,.tag-1,.tag-2-2,#skill-foto',{delay:1000,origin:'rigth'});
-}   ScrollReveal().reveal('.about-text',{delay:500,origin:'bottom'});
+  ScrollReveal().reveal('.about-text',{delay:500,origin:'bottom'});
+}
