@@ -10,7 +10,7 @@ body{
     font-family: 'Roboto+Slab', Roboto; 
     overflow-x: hidden;
 }
-div.layer{
+body.layer{
     height: 100%;
     width: 100%;
     background-color: #002647;
@@ -72,6 +72,7 @@ img {
   }
 
 .nav{
+    /* width: 105%; */
     display: flex; 
     background-color: #002647;
     height: 50px;
@@ -227,6 +228,14 @@ i.line-vertical{
     border-left: 3px solid #EC831E;
     z-index: -1;
 }
+i.line-vertical-ser{
+    width: 1px;
+    position: absolute;
+    height: 350px;
+    left: 14%;
+    border-left: 3px solid #EC831E;
+    z-index: -1;
+}
 
 div#central-line-1{
     display: flex;
@@ -252,20 +261,38 @@ i#education-icon{
 }
 div#sekolah-1.col{
     display: flex;
-    justify-content: end;
-    margin-top: 130px;
+    justify-content:end;
+    margin-top: 20px;
     padding:0px 0px 0px 0px;
 }
 div#sekolah-2.col{
     display: flex;
     justify-content: start;
-    margin-top: 242px;
+    margin-top: 130px;
     padding:0px 0px 0px 0px;
+}
+#card-3{
+    margin-top: 157px;
+}
+#card-4{
+    margin-top: 160px;
 }
 i.tag-1{
     position: absolute;
     margin-right: 10px;
     margin-top: 4px;
+    width: 18px;
+    height: 18px;
+    content: "";
+    background-color: #002647;
+    border: 1px solid #002647;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+i.tag-1-1{
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 225px;
     width: 18px;
     height: 18px;
     content: "";
@@ -286,8 +313,24 @@ i.tag-2{
     transform: rotate(45deg);
     z-index: -1;
 }
+i.tag-2-2{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 228px;
+    width: 18px;
+    height: 18px;
+    content: "";
+    background-color: #002647;
+    border: 1px solid #002647;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+div#sertifikat-content-1{
+    margin-top: 50px;
+    margin-left: 160px;
+}
 div#skill{
-    margin-top: 5%;
+    margin-top: 0;
 }
 div.skill-text{
     margin-left: 14%;
@@ -313,9 +356,13 @@ div#skill-menu{
 #skill-bar-id{
     width: 354px;
 }
-footer.footer{
+div.footer{
     height: 200px;
-    background-color: #002647;
+    width: 110%;
+    background-color: #002647; 
+}
+.footer#social_media{
+    opacity: 0;
 }
 @media screen and (max-width:572px){
 
@@ -326,7 +373,7 @@ footer.footer{
     }
     .nav-toggler{
         position: absolute;
-        right: 60px;
+        right: 20px;
         font-size: 1.5rem;
         color:  #EC831E;
         cursor: pointer;
@@ -384,6 +431,10 @@ div#education-isi{
         width: 80%;
         font-size: 2rem;
     }
+    div#sertifikat-content-1{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
     div.skill-text{
         margin-left: 8%;
         width: 80%;
@@ -413,5 +464,12 @@ div#education-isi{
 } */
    footer.footer{
     height: 200px;
+}
+}
+
+@media screen and (max-width:412px){
+    .nav-toggler{
+        right: 60px;
+
 }
 }

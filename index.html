@@ -1,278 +1,432 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--Box icon    -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Web Portofolio</title>
-  </head>
-  <body >
-      <div id="layer">
-      <div id="loading">
-        <div id="obj"></div>
-        <div id="obj1"></div>
-        <div id="obj2"></div>
-        <div id="obj3"></div>
-        <div id="obj4"></div>
-        <div id="obj5"></div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--Box icon    -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Web Portofolio</title>
+</head>
+
+<body id="layer">
+
+  <div id="loading">
+    <div id="obj"></div>
+    <div id="obj1"></div>
+    <div id="obj2"></div>
+    <div id="obj3"></div>
+    <div id="obj4"></div>
+    <div id="obj5"></div>
+  </div>
+  <!--Navbar-->
+  <nav class="nav fixed-top">
+    <div class="col-5 ps-2 pe-2 d-flex justify-content-center">
+      <div class="nav-logo">
+        <h4>Kornelius</h4>
       </div>
-   <!--Navbar-->
-   <nav class="nav fixed-top">
-     <div class="col-5 ps-2 pe-2 d-flex justify-content-center">
-     <div class="nav-logo">
-      <h4>Kornelius</h4>
-     </div>
-     </div>
-     <div class="col  d-flex justify-content-center">
-     <div class="menu" id="nav-menu" style="margin: rigth 30px;">
-      <ul > 
-        <li><a href="#home">Beranda</a></li>
-        <li><a href="#about">Tentang Aku</a></li>
-        <li><a href="#education">Pendidikan</a></li>
-        <li><a href="#skill">Kemampuan</a></li>
-        <li><a href="#social_media">Sosial Media</a></li>
-      </ul>
-    <div class="nav-toggler" id="nav-toggle">
-      <bottom class='bx bx-menu' id="icon-burger"></bottom>
     </div>
-  </div>
-     </div>
-</nav>
-<div id="isi">
-  <div  id="container">
-   <!--Navbar-->
-<!--Home-->
-
-<div class="row m-4" id="home">
-  <div class="col-sm-7 pt-2 d-flex justify-content-center"  >
-    <div class="home__data">
-      <h1 class="home__title">Halo,<br>Aku <span class="home__title-color">Kornelius</span><br> Putra Aditama</h1>
-      <a href="#" class="button">Hubungi </a>
-      <div class="home__social">
-        <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-        <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-    </div>
-  </div>
-  </div>
-  
-  <div class="col-sm-5 pt-2 d-flex justify-content-center">
-    <div class="home__img">
-      <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <mask id="mask0" mask-type="alpha">
-              <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-          </mask>
-          <g mask="url(#mask0)">
-              <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-              <image class="home__blob-img" x="20" y="0" href="assets/foto/kl-jas.png">
-          </g>
-      </svg>
-  </div>
-
-  </div>
-</div>
-<div id="about">
-  <div class="about-text ">
-  <h1  class="about-text mb-7 "><i class='bx bx-id-card'></i><span>TENTANG AKU</span></h1>
-</div>
-  <div class="row p-4" id="about-isi">
-  <div class="col-sm-7  d-flex justify-content-center " id="about_foto">
-    <img src="assets/foto/foto-1.png" width="400px" height="400px">
-  </div>
-  <div class="col-sm-4 mt-4 justify-content-center"  id="about_teks">
-    <div class="about-teks-isi ms-2">
-      <h2 class="about__subtitle">I'am Kornelius</h2>
-      <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-  </div>
-</div>
-  </div>
-  </div>
-  <div id="education">
-    <div class="education-text ">
-    <h1 class="about-text mb-7 ""><i class='bx bxs-graduation' ></i><span>PENDIDIKAN</span></h1>
-    </div>
-    <div class="row" id="education-isi">
-    <div class="col" id="sekolah-1">
-      
-      <div class="card me-3 ms-2 text-dark bg-light" id="card-1" style="max-width: 15rem; max-height: 8rem;">
-        <div class="card-body">
-          <h5 class="card-title">SMAK ST. AGUSTINUS KEDIRI</h5>
-          <p class="card-text">Jurusan IPA</p>
+    <div class="col  d-flex justify-content-center">
+      <div class="menu" id="nav-menu" style="margin: rigth 30px;">
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang Aku</a></li>
+          <li><a href="#education">Pendidikan</a></li>
+          <li><a href="#SERTIFIKAT">Sertifikat</a></li>
+          <li><a href="#skill">Kemampuan</a></li>
+        </ul>
+        <div class="nav-toggler" id="nav-toggle">
+          <bottom class='bx bx-menu' id="icon-burger"></bottom>
         </div>
       </div>
-      <i class="tag-1">
-      </i>
     </div>
-    <div class="col-1" id="central-line">
-     <div class="col-1 justify-content-center" id="central-line-1">
-      <i class="line-vertical"></i>
-       <div class="bor mt">
-      <i class='bx mt bxs-graduation' id="education-icon"></i>
-     </div>
-     <div class="bor">
-      <i class='bx bxs-graduation' id="education-icon"></i>
-     </div>
+  </nav>
+  <div id="isi">
+    <div id="container">
+      <!--Navbar-->
+      <!--Home-->
+
+      <div class="row m-4" id="home">
+        <div class="col-sm-7 pt-2 d-flex justify-content-center">
+          <div class="home__data">
+            <h1 class="home__title">Halo,<br>Aku <span class="home__title-color">Kornelius</span><br> Putra Aditama
+            </h1>
+            <a href="#" class="button">Hubungi </a>
+            <div class="home__social">
+              <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+              <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-5 pt-2 d-flex justify-content-center">
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path
+                  d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path
+                  d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                <image class="home__blob-img" x="20" y="0" href="assets/foto/kl-jas.png">
+              </g>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+      <div id="about">
+        <div class="about-text ">
+          <h1 class="about-text mb-7 "><i class='bx bx-id-card'></i><span>TENTANG AKU</span></h1>
+        </div>
+        <div class="row p-4" id="about-isi">
+          <div class="col-sm-7  d-flex justify-content-center " id="about_foto">
+            <img src="assets/foto/foto-1.png" width="400px" height="400px">
+          </div>
+          <div class="col-sm-4 mt-4 justify-content-center" id="about_teks">
+            <div class="about-teks-isi ms-2">
+              <h2 class="about__subtitle">I'am Kornelius</h2>
+              <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita
+                quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque
+                perferendis! Recusandae alias accusamus atque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="education">
+        <div class="education-text ">
+          <h1 class="about-text mb-7 ""><i class='bx bxs-graduation' ></i><span>PENDIDIKAN</span></h1>
     </div>
-    </div>
-  <div class="col" id="sekolah-2">
-    <div class="card me-2 ms-3 text-dark bg-light" id="card-2" style="max-width: 15rem; max-height: 8rem;">
-      <div class="card-body">
-        <h5 class="card-title">UNIVERSITAS BRAWIJAYA</h5>
-        <p class="card-text">Jurusan Teknik Informatika</p>
+    <div class=" row" id="education-isi">
+            <div class="col " id="sekolah-1">
+              <div class="me-3 ms-2 text-dark">
+                <div class="card-body p-2 " id="card-1" style="max-width: 15rem; max-height: 4rem;">
+                  <p class="card-title m-0 text-center">SDN SAMBIREJO 2</S></p>
+                </div>
+                <div class="card-body p-2 " id="card-3" style="max-width: 15rem; max-height: 4rem;">
+                  <p class="card-title m-0 text-center">SMAK ST. AGUSTINUS KEDIRI</p>
+
+                </div>
+              </div>
+              <i class="tag-1">
+              </i>
+              <i class="tag-1-1">
+              </i>
+            </div>
+            <div class="col-1" id="central-line">
+              <div class="col-1 justify-content-center" id="central-line-1">
+                <i class="line-vertical"></i>
+                <div class="bor">
+                  <i class='bx mt bxs-graduation' id="education-icon"></i>
+                </div>
+                <div class="bor">
+                  <i class='bx bxs-graduation' id="education-icon"></i>
+                </div>
+                <div class="bor">
+                  <i class='bx bxs-graduation' id="education-icon"></i>
+                </div>
+                <div class="bor">
+                  <i class='bx bxs-graduation' id="education-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col" id="sekolah-2">
+              <div class="me-2 ms-3" ">
+                  <div class=" card-body p-2" id="card-2" style="max-width: 15rem; max-height: 4rem;">
+                <p class="card-title m-0 text-center">SMPN 1 PARE</p>
+              </div>
+              <div class="card-body p-2" id="card-4" style="max-width: 15rem; max-height: 4rem;">
+                <p class="card-title m-0 text-center">UNIVERSITAS BRAWIJAYA</p>
+              </div>
+            </div>
+            <i class="tag-2">
+            </i>
+            <i class="tag-2-2">
+            </i>
+        </div>
       </div>
     </div>
-    <i class="tag-2">
-    </i>
-  </div>
-    </div>
-    </div>
-    <div id="skill">
-      <div class="skill-text">
-      <h1 class="about-text mb-7""><i class='bx bx-task'></i><span>KEMAMPUAN</span></h1>
+    <div id="SERTIFIKAT">
+      <div class="about-text ">
+        <h1 class="about-text mb-7 "><i class='bx bx-certification'></i><span>SERTIFIKAT</span></h1>
       </div>
-      <div class="row p-4" id="skill-isi">
-        <div class="col-sm-6 d-flex justify-content-center" id="skill-menu">
-          <div class="card mt-4" style="width: 400px;">
-            <div class="card-body" style="border: 1px solid #fff;">
-              <div class="d-flex flex-column bd-highlight mb-0">
-                <div class="p-2 mb-3 bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
-                  <div class="d-flex flex-row" >
-                    <div class="d-flex flex-column" >
-                      <div class="d-flex flex-row">
-                      <div class=" title-bar pt-3"><h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">PHP</h5></div>
-                       <div class=" status-bar pt-4"><h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">Intermediate</h5></div>
-                      </div>
-                      <div class="d-flex flex-row justify-content-around"  id="skill-bar" >
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
-                        </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="p-2 mb-3 bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
-                  <div class="d-flex flex-row">
-                    <div class="d-flex flex-column">
-                      <div class="d-flex flex-row">
-                      <div class="title-bar pt-3 "><h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">Python</h5></div>
-                       <div class="status-bar pt-4" ><h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">Intermediate</h5></div>
-                      </div>
-                      <div class="d-flex flex-row justify-content-around" id="skill-bar" >
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
-                        </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="p-2 mb-3 bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
-                  <div class="d-flex flex-row">
-                    <div class="d-flex flex-column">
-                      <div class="d-flex flex-row">
-                      <div class="title-bar pt-3 "><h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">HTML</h5></div>
-                       <div class="status-bar pt-4"><h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">Intermediate</h5></div>
-                      </div>
-                      <div class="d-flex flex-row justify-content-around" id="skill-bar"  >
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
-                        </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
-                  <div class="d-flex flex-row">
-                    <div class="d-flex flex-column">
-                      <div class="d-flex flex-row">
-                      <div class="title-bar pt-3 "><h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">CSS</h5></div>
-                       <div class="status-bar pt-4"><h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">Intermediate</h5></div>
-                      </div>
-                      <div class="d-flex flex-row justify-content-around" id="skill-bar" >
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
-                        </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
-                  <div class="d-flex flex-row">
-                    <div class="d-flex flex-column">
-                      <div class="d-flex flex-row">
-                      <div class="title-bar pt-3 "><h5 style=" width:120px; font-weight:revert; margin-left: 10px; font-size: 1.5rem;">Bahasa Indonesia</h5></div>
-                       <div class="status-bar pt-4" style="margin-top: 25px;"><h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">Advance</h5></div>
-                      </div>
-                      <div class="d-flex flex-row justify-content-around" id="skill-bar-id" >
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        </div>
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
-                  <div class="d-flex flex-row">
-                    <div class="d-flex flex-column">
-                      <div class="d-flex flex-row">
-                      <div class="title-bar pt-3 "><h5 style=" width:120px; font-weight:revert; margin-left: 10px; font-size: 1.5rem;">Bahasa Inggris</h5></div>
-                       <div class="status-bar pt-4" style="margin-top: 25px; "><h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">Intermediate</h5></div>
-                      </div>
-                      <div class="d-flex flex-row justify-content-around" id="skill-bar">
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                        <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
-                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
-                        </div>
-                    </div>
-                    
+      <div class="row pt-4 d-flex justify-content-xl-start" id="about-isi">
+        <div class="col-1" id="central-line">
+          <i class="line-vertical-ser"></i>
+        </div>
+        <div class="col-5 text-start" id="sertifikat-content-1">
+          <div class="p-2">
+            <!-- Button trigger modal -->
+            <a type="button" data-bs-toggle="modal" data-bs-target="#sertifikat-1">
+              <i class='bx bx-certification'></i><span> EKSEKUTIF KELUARGA MAHASISWA</span>
+            </a>
+
+            <!-- Modal -->
+            <div class="modal" id="sertifikat-1" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body d-flex justify-content-center">
+                    <img src="assets/foto/EKM.png">
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="p-2">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#sertifikat-2">
+              <i class='bx bx-certification'></i><span> BSECAMP</span>
+            </a>
+            <!-- Modal -->
+            <div class="modal" id="sertifikat-2" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body d-flex justify-content-center">
+                    <img src="assets/foto/BASECAMP.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#sertifikat-3">
+              <i class='bx bx-certification'></i><span> YOUNG ENTREPRENEUR WEBINAR 2020</span>
+            </a>
+            <!-- Modal -->
+            <div class="modal" id="sertifikat-3" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body d-flex justify-content-center">
+                    <img src="assets/foto/YOUNG ENTREPRENERUR.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#sertifikat-4">
+              <i class='bx bx-certification'></i><span> TOEFL ITP</span>
+            </a>
+            <!-- Modal -->
+            <div class="modal" id="sertifikat-4" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body d-flex justify-content-center">
+                    <img src="assets/foto/TOEFL ITP.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <i class='bx bx-certification'></i><span> MICROSOFT OFFICE DESKTOP APPLICATION</span>
+            </a>
+            <!-- Modal -->
+            <div class="modal" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body d-flex justify-content-center">
+                    <img src="assets/foto/MICROSOFT OFFICE DESKTOP APPLICATION.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="col mt-5 justify-content-center" id="skill-foto">
-          <img src="assets/foto/work3.jpg" width="400px" style="height:400px; border-radius: 5%; margin-left: 20px;">
         </div>
       </div>
-      </div>
-  </div>
     </div>
-    <footer class="footer pt-5" id="social_media">
-      <div class="contain-footer mt-2 d-flex flex-column">
-       <h3 style="color: #fff; text-align: center;"> Sosial Media</h3>
-        <div class="icon-sosial d-flex flex-row justify-content-center  ">
-          <a class="home__social-icon" style="color: #fff;"><i class='bx bxl-instagram'></i></a>
-          <a class="home__social-icon" style="color: #fff;"><i class='bx bxl-facebook'></i></i></a>
-        </div>
-        <h8 class="crate_by" style="color: #fff; text-align: center;">Create By Kornelius Putra</h8>
+    <div id="skill">
+      <div class="skill-text">
+        <h1 class="about-text mb-7""><i class='bx bx-task'></i><span>KEMAMPUAN</span></h1>
       </div>
-    
-    </footer>
-</div>
+      <div class=" row p-4" id="skill-isi">
+          <div class="col-sm-6 d-flex justify-content-center" id="skill-menu">
+            <div class="card mt-4" style="width: 400px;">
+              <div class="card-body" style="border: 1px solid #fff;">
+                <div class="d-flex flex-column bd-highlight mb-0">
+                  <div class="p-2 mb-3 bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                          <div class=" title-bar pt-3">
+                            <h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">PHP</h5>
+                          </div>
+                          <div class=" status-bar pt-4">
+                            <h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">
+                              Intermediate</h5>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around" id="skill-bar">
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="p-2 mb-3 bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                          <div class="title-bar pt-3 ">
+                            <h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">Python</h5>
+                          </div>
+                          <div class="status-bar pt-4">
+                            <h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">
+                              Intermediate</h5>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around" id="skill-bar">
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="p-2 mb-3 bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                          <div class="title-bar pt-3 ">
+                            <h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">HTML</h5>
+                          </div>
+                          <div class="status-bar pt-4">
+                            <h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">
+                              Intermediate</h5>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around" id="skill-bar">
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                          <div class="title-bar pt-3 ">
+                            <h5 style="font-weight:revert; margin-left: 10px; font-size: 1.5rem;">CSS</h5>
+                          </div>
+                          <div class="status-bar pt-4">
+                            <h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">
+                              Intermediate</h5>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around" id="skill-bar">
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                          <div class="title-bar pt-3 ">
+                            <h5 style=" width:120px; font-weight:revert; margin-left: 10px; font-size: 1.5rem;">
+                              Bahasa Indonesia</h5>
+                          </div>
+                          <div class="status-bar pt-4" style="margin-top: 25px;">
+                            <h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">
+                              Advance</h5>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around" id="skill-bar-id">
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
+                    <div class="d-flex flex-row">
+                      <div class="d-flex flex-column">
+                        <div class="d-flex flex-row">
+                          <div class="title-bar pt-3 ">
+                            <h5 style=" width:120px; font-weight:revert; margin-left: 10px; font-size: 1.5rem;">
+                              Bahasa Inggris</h5>
+                          </div>
+                          <div class="status-bar pt-4" style="margin-top: 25px; ">
+                            <h5 style="font-weight:revert;font-size: 1rem; margin-right: 10px; margin-bottom: 0; ">
+                              Intermediate</h5>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around" id="skill-bar">
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
+                          <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-5 justify-content-center" id="skill-foto">
+            <img src="assets/foto/work3.jpg" width="400px" style="height:400px; border-radius: 5%; margin-left: 20px;">
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer pt-5" id="social_media">
+    <div class="contain-footer mt-2 d-flex flex-column">
+      <h3 style="color: #fff; text-align: center;"> Sosial Media</h3>
+      <div class="icon-sosial d-flex flex-row justify-content-center  ">
+        <a class="home__social-icon" style="color: #fff;"><i class='bx bxl-instagram'></i></a>
+        <a class="home__social-icon" style="color: #fff;"><i class='bx bxl-facebook'></i></i></a>
+      </div>
+      <h8 class="crate_by" style="color: #fff; text-align: center;">Create By Kornelius Putra</h8>
+    </div>
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>

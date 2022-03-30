@@ -11,6 +11,7 @@ const toggle = document.querySelector('.nav-toggler bottom');
 const nav = document.querySelector('nav ul');
 const isi = document.getElementById('isi');
 const cont = document.getElementById('container');
+const foot = document.getElementById('social_media');
 
 window.onload = function onload(){
     layer.classList.add('layer');
@@ -35,6 +36,7 @@ function time_load_end(){
     obj5.classList.remove('obj');
     navt.style.opacity = '1';
     isi.style.opacity = '1';
+    foot.style.opacity='1';
 }
 
 function load_end(){
@@ -56,6 +58,6 @@ if (load_end() == true){
         distance:'60px',
         delay:400
 });
-    ScrollReveal().reveal('.home__data,#about_foto,#card-1,.tag-1,#skill-menu',{delay:500,origin:'left'});
-    ScrollReveal().reveal('.home__img,#about_teks,#card-2,.tag-2,#skill-foto',{delay:1000,origin:'rigth'});
+    ScrollReveal().reveal('.home__data,#about_foto,#card-1,#card-3,.tag-1-1,.tag-2,#skill-menu,#sertifikat-content-1',{delay:500,origin:'left'});
+    ScrollReveal().reveal('.home__img,#about_teks,#card-2,#card-4,.tag-1,.tag-2-2,#skill-foto',{delay:1000,origin:'rigth'});
 }   ScrollReveal().reveal('.about-text',{delay:500,origin:'bottom'});
