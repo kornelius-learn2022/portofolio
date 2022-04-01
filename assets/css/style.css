@@ -95,8 +95,7 @@ nav ul a{
     display: inline-block;
     margin-top: 0px;
     color: #fff;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 nav ul a:hover{
     position: relative;
@@ -148,7 +147,6 @@ h1.home__title{
     border-radius: .5rem;
     transition: .3s;
   }
-  
   a.button:hover {
     box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
@@ -171,11 +169,9 @@ h1.home__title{
     font-size: 1.5rem;
     color: #002647;
   }
-  
   .home__social-icon:hover {
     color: #EC831E;
   }
- 
 div#about{
     margin-top: 8%;
 }
@@ -183,6 +179,7 @@ div.about-text{
     margin-left: 14%;
     width: 80%;
 }
+
 div#about_foto{
     padding: 0px 0px 0px 45px;
 }
@@ -191,13 +188,15 @@ div#about-isi{
     border-width: 2px 0px 0px 0px;
     border-color: #EC831E;    
 }
-
 h1.about-text{
     font-weight:revert ;
     font-size: 2rem;
     color: #002647;
     cursor: pointer;  
 }
+.about__text{
+        margin-bottom: 5px;
+    }
 div#education-isi{
     border-style: solid;
     border-width: 2px 0px 0px 0px;
