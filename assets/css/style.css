@@ -372,7 +372,7 @@ div.footer{
 }
 @media screen and (max-width:572px){
 
-    div.container{
+    #isi.container{
         padding-left: 0;
         padding-right: 0;
         opacity: 0.5;
