@@ -172,6 +172,37 @@ h1.home__title{
   .home__social-icon:hover {
     color: #EC831E;
   }
+  #popover-btn {
+    visibility: hidden;
+    width: max-content;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 35px;
+    font-size: 2rem;
+    color: #EC831E;
+    background-color:#002647;
+  }
+  i#icon-btn{
+      visibility: hidden;
+    position: absolute;
+    color: #EC831E;
+    content: "";
+    background-color: #002647;
+    margin-top: 5px;
+    margin-left: 65px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+.icon-contact{
+    text-decoration: none;
+    color: #EC831E;
+    height: 40px;
+}
 div#about{
     margin-top: 8%;
 }

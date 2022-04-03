@@ -12,6 +12,8 @@ const nav = document.querySelector('nav ul');
 const isi = document.getElementById('isi');
 const cont = document.getElementById('container');
 const foot = document.getElementById('social_media');
+const icon_btn = document.getElementById('icon-btn');
+const popover_btn = document.getElementById('popover-btn')
 
 window.onload = function onload(){
     layer.classList.add('layer');
@@ -52,6 +54,19 @@ toggle.addEventListener('click',function(){
     nav.classList.toggle('slide');
     cont.classList.toggle('container')
 });
+
+function tampil(){
+        if (icon_btn.style.visibility==='visible'){
+            icon_btn.style.visibility='hidden';
+            popover_btn.style.visibility='hidden';
+        }else{
+            icon_btn.style.visibility='visible';
+            popover_btn.style.visibility='visible';
+        }
+       
+        // popover_btn.style.visibilit='hidden';
+   
+}
 if (load_end() == true){
     ScrollReveal({  reset:true, 
         duration: 2000,
