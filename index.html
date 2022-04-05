@@ -10,7 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <!--Box icon    -->
+
+  <!--Box icon -->
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
   <script src="https://unpkg.com/scrollreveal"></script>
   <title>Web Portofolio</title>
@@ -36,13 +37,13 @@
     <div class="col  d-flex justify-content-center">
       <div class="menu" id="nav-menu" style="margin: rigth 30px;">
         <ul>
-          <li><a href="#home">Beranda</a></li>
+          <li><a href="#beranda">Beranda</a></li>
           <li><a href="#about">Tentang Aku</a></li>
           <li><a href="#education">Pendidikan</a></li>
           <li><a href="#SERTIFIKAT">Sertifikat</a></li>
           <li><a href="#skill">Kemampuan</a></li>
         </ul>
-        <div class="nav-toggler" id="nav-toggle">
+        <div class="nav-toggler" id="nav-toggler">
           <bottom class='bx bx-menu' id="icon-burger"></bottom>
         </div>
       </div>
@@ -52,19 +53,16 @@
   <div id="isi">
     <div id="container">
       <!--Home-->
-      <div class="row m-4" id="home">
+      <div class="row m-4" id="beranda">
         <div class="col-sm-7 pt-2 d-flex justify-content-center">
           <div class="home__data">
             <h1 class="home__title">Halo,<br>Aku <span class="home__title-color">Kornelius</span><br> Putra Aditama
             </h1>
             <a onclick="tampil()" class="button">Hubungi</a>
             <div><i class="icon-btn" id="icon-btn"></i></div>
-
             <div class="popover-btn" id="popover-btn">
-              <a class="icon-contact" href="https://wa.me/+6285853534667"><span><i
-                    class='bx bxl-whatsapp'></i></span></a>
-              <a class="icon-contact" href="mailto:korneliusputra85@gmail.com"><span><i
-                    class='bx bx-envelope'></i></span></a>
+              <a class="icon-contact" href="https://wa.me/+6285853534667"><span><i class='bx bxl-whatsapp'></i></span></a>
+              <a class="icon-contact" href="mailto:korneliusputra85@gmail.com"><span><i class='bx bx-envelope'></i></span></a>
             </div>
             <div class="home__social">
               <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
@@ -90,6 +88,9 @@
           </div>
         </div>
       </div>
+      <!--Home-->
+
+      <!--About-->
       <div id="about">
         <div class="about-text ">
           <h1 class="about-text mb-7 "><i class='bx bx-id-card'></i><span>TENTANG AKU</span></h1>
@@ -114,11 +115,14 @@
           </div>
         </div>
       </div>
+      <!--About-->
+
+      <!--Education-->
       <div id="education">
         <div class="education-text ">
           <h1 class="about-text mb-7 ""><i class='bx bxs-graduation' ></i><span>PENDIDIKAN</span></h1>
-    </div>
-    <div class=" row" id="education-isi">
+        </div>
+        <div class=" row" id="education-isi">
             <div class="col " id="sekolah-1">
               <div class="me-3 ms-2 text-dark">
                 <div class="card-body p-2 " id="card-1" style="max-width: 15rem; max-height: 4rem;">
@@ -170,6 +174,9 @@
         </div>
       </div>
     </div>
+    <!--Education-->
+
+    <!--Sertifikat-->
     <div id="SERTIFIKAT">
       <div class="about-text ">
         <h1 class="about-text mb-7 "><i class='bx bx-certification'></i><span>SERTIFIKAT</span></h1>
@@ -184,7 +191,6 @@
             <a type="button" data-bs-toggle="modal" data-bs-target="#sertifikat-1">
               <i class='bx bx-certification'></i><span> EKSEKUTIF KELUARGA MAHASISWA</span>
             </a>
-
             <!-- Modal -->
             <div class="modal" id="sertifikat-1" data-bs-keyboard="false" tabindex="-1"
               aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -266,7 +272,9 @@
         </div>
       </div>
     </div>
+    <!--Sertifikat-->
 
+    <!--Skill-->
     <div id="skill">
       <div class="skill-text">
         <h1 class="about-text mb-7""><i class='bx bx-task'></i><span>KEMAMPUAN</span></h1>
@@ -336,7 +344,6 @@
                           <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
                         </div>
                       </div>
-
                     </div>
                   </div>
                   <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
@@ -379,7 +386,6 @@
                           <div class="bd-highlight" style="width: 100px; border-top: 3px solid #EC831E;"></div>
                         </div>
                       </div>
-
                     </div>
                   </div>
                   <div class="p-2 mb-3  bd-highlight" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);">
@@ -401,7 +407,6 @@
                           <div class="bd-highlight" style="width: 100px; border-top: 3px solid #002647;"></div>
                         </div>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -413,18 +418,22 @@
           </div>
       </div>
     </div>
+      <!--Skill-->
+
+    <!--Footer-->
     <div class="footer pt-5" id="social_media">
       <div class="contain-footer mt-2 d-flex flex-column">
         <div>
           <h3 style="color: #fff; text-align: center;"> Sosial Media</h3>
         </div>
         <div class="icon-sosial d-flex flex-row justify-content-center  ">
-          <a class="home__social-icon" style="color: #fff;"><i class='bx bxl-instagram'></i></a>
-          <a class="home__social-icon" style="color: #fff;"><i class='bx bxl-facebook'></i></i></a>
+          <a class="footer__social-icon"><i class='bx bxl-instagram'></i></a>
+          <a class="footer__social-icon"><i class='bx bxl-facebook'></i></a>
         </div>
         <h8 class="crate_by" style="color: #fff; text-align: center;">Create By Kornelius Putra</h8>
       </div>
     </div>
+     <!--Footer-->
   </div>
 
   </div>

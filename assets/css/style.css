@@ -83,7 +83,6 @@ img {
 .nav-logo h4{
     cursor: pointer;
     right: 0%;
- 
 }
 nav ul{
     display: flex;
@@ -116,7 +115,6 @@ nav ul a:hover:after{
         display: none;
     }
 }
-
 @media screen and (max-width:768px){
     nav ul{
         width: 50%;
@@ -400,12 +398,26 @@ div.footer{
 .footer#social_media{
     opacity: 0;
 }
+.footer__social-icon{
+    width: max-content;
+    margin-right:10px ;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.footer__social-icon:hover{
+    color: #EC831E;
+}
 @media screen and (max-width:572px){
-
     #isi.container{
+        width: 100%;
         padding-left: 0;
         padding-right: 0;
         opacity: 0.5;
+    }
+    .loading{
+        top: 45%;
+        left: 45#%;
     }
     .nav-toggler{
         position: absolute;
