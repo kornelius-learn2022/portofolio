@@ -72,7 +72,6 @@ img {
   }
 
 .nav{
-    /* width: 105%; */
     display: flex; 
     background-color: #002647;
     height: 50px;
@@ -167,9 +166,11 @@ h1.home__title{
     font-size: 1.5rem;
     color: #002647;
   }
+
   .home__social-icon:hover {
     color: #EC831E;
   }
+
   #popover-btn {
     visibility: hidden;
     width: max-content;
@@ -183,8 +184,9 @@ h1.home__title{
     color: #EC831E;
     background-color:#002647;
   }
+
   i#icon-btn{
-      visibility: hidden;
+    visibility: hidden;
     position: absolute;
     color: #EC831E;
     content: "";
@@ -196,6 +198,7 @@ h1.home__title{
     transform: rotate(45deg);
     z-index: -1;
   }
+
 .icon-contact{
     text-decoration: none;
     color: #EC831E;
@@ -272,9 +275,8 @@ div#central-line-1{
     gap:20%;
     height: 100%;
     width: 100%;
-    /* background-color:#EC831E; */
-
 }
+
 div.bor{
     width: 31px;
     height: 31px;
@@ -284,6 +286,7 @@ div.bor{
     border-radius: 60%;
     border: 3px solid #EC831E;
 }
+
 i#education-icon{
     margin-top: 4px;
 }
@@ -409,7 +412,7 @@ div.footer{
     color: #EC831E;
 }
 @media screen and (max-width:572px){
-    #isi.container{
+    .container{
         padding-left: 0;
         padding-right: 0;
         opacity: 0.5;
